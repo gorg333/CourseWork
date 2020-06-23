@@ -1,0 +1,15 @@
+{
+  "name": "coursework-master",
+  "version": "1.0.0",
+  "description": "\"Решение СЛАУ методом Гаусса-Жордана\"",
+  "main": "code.Gauss.txt",
+  "scripts": {
+    "test": "code.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CourseWork"
+  },
+  "author": "Иванченко Георгий",
+  "license": "MIT"
+}
