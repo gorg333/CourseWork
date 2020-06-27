@@ -14,12 +14,9 @@ const Results = new Array(NumbOfEquations); //Массив ответов
 let row; let member; let value;   //Вспомогательные переменные
 for (row = 0; row < NumbOfEquations; ++row) {
   Source[row] = new Array(NumbOfEquations);
-  Results[row] = new Array(NumbOfEquations);
-}
-
-for (row = 0; row < NumbOfEquations; ++row) { //Заполнение матрицы
+  Results[row] = new Array(NumbOfEquations); 
   for (member = 0; member <= NumbOfEquations; ++member) {
-    Source[row][member] = prompt("Введите значение елемента матрицы:");
+    Source[row][member] = prompt("Введите значение елемента матрицы:");//Заполнение матрицы
   }
 }
 
